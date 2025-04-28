@@ -351,12 +351,9 @@
     <footer class="section-footer">
         <div class="container flex-cont">
           <div class="one-footer-logo">
-            <a href="./index.html" class="footer-logo"
-              >Web<span class="footer-span">Studio</span></a
-            >
+            <a href="./index.html" class="footer-logo">Web<span class="footer-span">Studio</span></a>
             <p class="text-footer">
-              Increase the flow of customers and sales for your business with
-              digital marketing & growth solutions.
+              Increase the flow of customers and sales for your business with digital marketing & growth solutions.
             </p>
           </div>
           <div class="one-footer-icon">
@@ -392,58 +389,63 @@
               </li>
             </ul>
           </div>
-        </div>
-        <div class="div-footer">
+      
+          <!-- div-footer тепер тут, всередині .container -->
+          <div class="div-footer">
             <p class="subs-form">Subscribe</p>
             <form class="form-footer" name="email_input">
-                <label class="label-form-footer">
-                <input class="form-input" type="email" name="subscribe" placeholder="E-mail"/>
-                </label>
-                <button class="form-button" type="submit">Subscribe
+              <label class="label-form-footer">
+                <input class="form-input" type="email" name="subscribe" placeholder="E-mail" />
+              </label>
+              <button class="form-button" type="submit">
+                Subscribe
                 <svg class="icon-footer-form" width="24" height="24">
-                    <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                  <use href="./images/symbol-defs.svg#icon-icon-send"></use>
                 </svg>
-                </button>
+              </button>
             </form>
+          </div>
         </div>
-    </footer>
+      </footer>      
 <div class="backdrop is-open">
     <div class="modal">
-        <button class="popup-close">
+        <button type="button" class="popup-close">
             <svg class="icon-close-black" width="8" height="8">
               <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1-2"></use>
             </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="forma" action="#">
-            <div>
-                <label for="username" class="popup-label">Name</label>
+            <div class="popup-form-one">
+                <label for="user-name" class="popup-label">Name</label>
                 <div class="popup-input-wrapper">
-                    <svg class="icon-form" width="18" height="24">
-                      <use href="./images/symbol-defs.svg#icon-person-black-18dp-1"></use>
-                    </svg>
-                    <input type="text" name="form_user" id="username" class="popup-input">
+                  <input type="text" name="form_user" id="user-name" class="popup-input" />
+                  <svg class="icon-form" width="18" height="24">
+                    <use href="./images/symbol-defs.svg#icon-person-black-18dp-1"></use>
+                  </svg>
                 </div>
-            </div>
-            <div>
+              </div>
+              
+              <div class="popup-form-all">
                 <label for="usertel" class="popup-label">Phone</label>
                 <div class="popup-input-wrapper">
-                    <svg class="icon-form" width="18" height="24">
-                        <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1"></use>
-                      </svg>
-                    <input type="tel" name="form_user" id="usertel" class="popup-input">
+                  <input type="tel" name="form_user" id="usertel" class="popup-input" />
+                  <svg class="icon-form" width="18" height="24">
+                    <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1"></use>
+                  </svg>
                 </div>
-            </div>
-            <div>
+              </div>
+              
+              <div class="popup-form-all">
                 <label for="useremail" class="popup-label">Email</label>
                 <div class="popup-input-wrapper">
-                    <svg class="icon-form" width="18" height="24">
-                        <use href="./images/symbol-defs.svg#icon-email-black-18dp-1"></use>
-                      </svg>
-                    <input type="email" name="form_user" id="useremail" class="popup-input">
+                  <input type="email" name="form_user" id="useremail" class="popup-input" />
+                  <svg class="icon-form" width="18" height="24">
+                    <use href="./images/symbol-defs.svg#icon-email-black-18dp-1"></use>
+                  </svg>
                 </div>
-            </div>
-            <div>
+              </div>              
+            <div class="popup-form-all">
                 <div>
                     <label for="usercomment">Comment</label>
                 </div>
