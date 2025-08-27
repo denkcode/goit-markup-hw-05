@@ -808,12 +808,8 @@ color: #434455;
 
 span.checkbox-box {
   display: inline-flex;
-}
-
-span.checkbox-box {
   width: 16px;
   height: 16px;
-  display: inline-flex;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   display: inline-flex;
