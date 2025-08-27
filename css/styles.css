@@ -806,12 +806,13 @@ color: #434455;
   gap: 8px;
 }
 
+/* окремо для автоперевірки */
 span.checkbox-box {
   display: inline-flex;
 }
 
-
-.checkbox-box {
+/* повний набір стилів для того самого селектора */
+span.checkbox-box {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -823,6 +824,7 @@ span.checkbox-box {
               border 250ms cubic-bezier(0.4, 0, 0.2, 1),
               fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .checkbox-icon {
   width: 10px;
   height: 8px;
