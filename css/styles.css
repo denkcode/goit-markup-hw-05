@@ -755,8 +755,7 @@ color: #434455;
 .checkbox-input.visually-hidden { position:absolute;width:1px;height:1px;margin:-1px;border:0;padding:0;clip:rect(0 0 0 0);overflow:hidden; }
 .checkbox-label { display:flex; align-items:center; gap:8px; font-size:12px; line-height:1.17; letter-spacing:0.04em; color:#8e8f99; }
 
-span.checkbox-box {
-  display: inline-flex !important;
+.checkbox-box {
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -795,6 +794,11 @@ span.checkbox-box {
 .modal-submit:focus {
   background-color: #404bbf;
 }
+
+span.checkbox-box {
+  display: inline-flex;
+}
+
 
 
 
