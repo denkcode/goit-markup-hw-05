@@ -803,6 +803,12 @@ color: #434455;
 .checkbox-container {
   margin-bottom: 24px;
 }
+
+.checkbox-box {
+  display: inline-flex;
+}
+
+
 .checkbox-input {
   position: absolute;
   width: 1px;
