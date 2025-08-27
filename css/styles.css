@@ -606,22 +606,19 @@ color: #434455;
 
 }
 
-.form-input {
-    border: 1px solid #fff;
-    height: 40px;
-    border-radius: 4px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    width: 264px;
-    height: 40px;
-    background-color: #2e2f42;
-    padding: 8px 212px 8px 16px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    color: #fff;
-    background-color: transparent;
+.section-footer .form-input {
+  width: 264px;
+  border: 1px solid #ffffff;
+  padding-left: 16px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 2;    /* ← ось так */
+  letter-spacing: 0.04em;
 }
+
 
 .icon-footer-form {
     fill: #fff;
@@ -632,23 +629,6 @@ color: #434455;
 .footer-span {
   display: inline-flex;
 }
-
-/* Стилі інпуту у футері */
-.section-footer .form-input {
-  width: 264px;                 /* обов’язкова ширина */
-  border: 1px solid #ffffff;    /* білий бордер */
-  padding-left: 16px;           /* відступ всередині зліва */
-
-  height: 40px;                 /* щоб виглядало акуратно */
-  border-radius: 4px;
-  background-color: transparent;
-  color: #ffffff;
-  font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-
-
 
 /* ===================== */
 /* Контейнер модального вікна */
@@ -804,11 +784,6 @@ color: #434455;
   margin-bottom: 24px;
 }
 
-.checkbox-box {
-  display: inline-flex;
-}
-
-
 .checkbox-input {
   position: absolute;
   width: 1px;
@@ -831,6 +806,7 @@ color: #434455;
 span.checkbox-box {
   width: 16px;
   height: 16px;
+  display: inline-flex;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   display: inline-flex;
