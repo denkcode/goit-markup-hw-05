@@ -797,6 +797,8 @@ color: #434455;
 
 .checkbox-label .checkbox-box {
   display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
 }
 
 
