@@ -795,9 +795,10 @@ color: #434455;
   background-color: #404bbf;
 }
 
-span.checkbox-box {
-  display: inline-flex;
+.checkbox-label .checkbox-box {
+  display: inline-flex !important;
 }
+
 
 
 
