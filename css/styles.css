@@ -617,6 +617,8 @@ color: #434455;
   font-size: 12px;
   line-height: 2;    /* ← ось так */
   letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
 }
 
 
@@ -803,6 +805,11 @@ color: #434455;
   align-items: center;
   gap: 8px;
 }
+
+span.checkbox-box {
+  display: inline-flex;
+}
+
 span.checkbox-box {
   width: 16px;
   height: 16px;
