@@ -628,6 +628,22 @@ color: #434455;
     margin-left: 16px;
 }
 
+/* Стилі інпуту у футері */
+.section-footer .form-input {
+  width: 264px;                 /* обов’язкова ширина */
+  border: 1px solid #ffffff;    /* білий бордер */
+  padding-left: 16px;           /* відступ всередині зліва */
+
+  height: 40px;                 /* щоб виглядало акуратно */
+  border-radius: 4px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+
 
 /* ===================== */
 /* Контейнер модального вікна */
@@ -800,7 +816,7 @@ color: #434455;
   align-items: center;
   gap: 8px;
 }
-.checkbox-box {
+span.checkbox-box {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
