@@ -745,26 +745,28 @@ color: #434455;
 }
 .form-textarea:focus { border-color: #4D5AE5; }
 
-/* Для div з margin-bottom: 8px */
-.form-group.small-margin { margin-bottom: 8px; }
+.input-container {
+  margin-bottom: 8px; /* саме тут */
+}
 
-/* Для div з margin-bottom: 24px */
-.form-group.large-margin { margin-bottom: 24px; }
+.checkbox-container {
+  margin-bottom: 24px; /* саме тут */
+}
 
-/* Для span з display: inline-flex */
-.checkbox-box.inline-flex {
-  display: inline-flex;
+.checkbox-box {
+  display: inline-flex; /* саме ця властивість */
   align-items: center;
   justify-content: center;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
               border 250ms cubic-bezier(0.4, 0, 0.2, 1),
               fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
 }
+
 
 
 /* Checkbox */
