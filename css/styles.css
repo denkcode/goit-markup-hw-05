@@ -751,17 +751,37 @@ color: #434455;
 }
 .form-textarea:focus { border-color: #4D5AE5; }
 
-.checkbox-container { margin-bottom: 24px; }
-.checkbox-input.visually-hidden { position:absolute;width:1px;height:1px;margin:-1px;border:0;padding:0;clip:rect(0 0 0 0);overflow:hidden; }
-.checkbox-label { display:flex; align-items:center; gap:8px; font-size:12px; line-height:1.17; letter-spacing:0.04em; color:#8e8f99; }
-
-.checkbox-label .checkbox-box {
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
+/* Контейнер чекбоксу */
+.checkbox-container {
+  margin-bottom: 24px;
 }
 
+/* Приховуємо дефолтний чекбокс */
+.checkbox-input.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Label чекбоксу */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+/* Сам квадрат чекбоксу */
 .checkbox-box {
+  display: inline-flex;   /* ✅ ключове правило */
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -769,15 +789,28 @@ color: #434455;
   border: 1px solid rgba(46,47,66,0.4);
   border-radius: 2px;
   fill: transparent;
-  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1), border 250ms cubic-bezier(0.4,0,0.2,1), fill 250ms cubic-bezier(0.4,0,0.2,1);
+  transition: background-color 250ms cubic-bezier(0.4,0,0.2,1),
+              border 250ms cubic-bezier(0.4,0,0.2,1),
+              fill 250ms cubic-bezier(0.4,0,0.2,1);
 }
+
+/* Іконка всередині чекбоксу */
+.checkbox-icon {
+  width: 10px;
+  height: 8px;
+}
+
+/* Стан активного чекбоксу */
 .checkbox-input:checked + .checkbox-label .checkbox-box {
   background-color: #404bbf;
   border: none;
-  fill: #F4F4FD;
+  fill: #f4f4fd;
 }
-.checkbox-icon { width: 10px; height: 8px; }
-.privacy-policy { color: #4d5ae5; }
+
+/* Посилання у тексті */
+.privacy-policy {
+  color: #4d5ae5;
+}
 
 .modal-submit {
   display: block;
