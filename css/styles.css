@@ -755,6 +755,12 @@ color: #434455;
 .checkbox-input.visually-hidden { position:absolute;width:1px;height:1px;margin:-1px;border:0;padding:0;clip:rect(0 0 0 0);overflow:hidden; }
 .checkbox-label { display:flex; align-items:center; gap:8px; font-size:12px; line-height:1.17; letter-spacing:0.04em; color:#8e8f99; }
 
+.checkbox-label .checkbox-box {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
 .checkbox-box {
   align-items: center;
   justify-content: center;
@@ -793,12 +799,6 @@ color: #434455;
 .modal-submit:hover,
 .modal-submit:focus {
   background-color: #404bbf;
-}
-
-.checkbox-label .checkbox-box {
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
 }
 
 
