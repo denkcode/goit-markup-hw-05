@@ -780,7 +780,7 @@ color: #434455;
 }
 
 /* Сам квадрат чекбоксу */
-.checkbox-box {
+span.checkbox-box {
   display: inline-flex;   /* ✅ ключове правило */
   align-items: center;
   justify-content: center;
